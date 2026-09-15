@@ -1,293 +1,291 @@
 # Security Research Toolkit
 
+A curated index of the offensive security, recon and AI security tooling I use, grouped by engagement phase. Links point to each project's upstream repository.
+
 ## Reconnaissance Tools
-- [pydns-scanner](https://github.com/jinnu92/pydns-scanner) - A modern, high-performance DNS scanner with a beautiful Terminal User Interface (TUI) built with Textual. This tool can scan millions of IP addresses to find working DNS servers with optional Slipstream proxy testing and automatic multi-platform client download.
-- [scanners-box](https://github.com/jinnu92/scanners-box) - A powerful and open-source toolkit for hackers and security automation - 安全行业从业者自研开源扫描器合辑
-- [BugBounty_Profile](https://github.com/jinnu92/BugBounty_Profile) - Recon_profile
-- [rapidscan](https://github.com/jinnu92/rapidscan) - :santa: The Multi-Tool Web Vulnerability Scanner. 
-- [OSCPRepo](https://github.com/jinnu92/OSCPRepo) - A list of commands, scripts, resources, and more that I have gathered and attempted to consolidate for use as OSCP (and more) study material. Commands in 'Usefulcommands' Keepnote. Bookmarks and reading material in 'BookmarkList' CherryTree. Reconscan (py2) in scripts folder. Py3 port coming. Custom ISO coming.
-- [AutoNSE](https://github.com/jinnu92/AutoNSE) - Massive NSE (Nmap Scripting Engine) AutoSploit and AutoScanner
-- [Reconnoitre](https://github.com/jinnu92/Reconnoitre) - A security tool for multithreaded information gathering and service enumeration whilst building directory structures to store results, along with writing out recommendations for further testing.
-- [CORScanner](https://github.com/jinnu92/CORScanner) -  Fast CORS misconfiguration vulnerabilities scanner🍻
-- [changeme](https://github.com/jinnu92/changeme) - A default credential scanner.
-- [CORStest](https://github.com/jinnu92/CORStest) - A simple CORS misconfiguration scanner
-- [fuxploider](https://github.com/jinnu92/fuxploider) - File upload vulnerability scanner and exploitation tool.
-- [userrecon](https://github.com/jinnu92/userrecon) - Find usernames across over 75 social networks
-- [Devploit](https://github.com/jinnu92/Devploit) - 🌐 Devploit  v 3.6 Information Gathering Tool 
-- [esp8266_deauther](https://github.com/jinnu92/esp8266_deauther) - Scan for WiFi devices, block selected connections, create dozens of networks and confuse WiFi scanners!
-- [datasploit](https://github.com/jinnu92/datasploit) - An #OSINT Framework to perform various recon techniques on Companies, People, Phone Number, Bitcoin Addresses, etc.,  aggregate all the raw data, and give data in multiple formats.
-- [BlackWidow](https://github.com/jinnu92/BlackWidow) - A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website.
-- [Sn1per](https://github.com/jinnu92/Sn1per) - Automated Pentest Recon Scanner
-- [snitch](https://github.com/jinnu92/snitch) - information gathering via dorks
+- [pydns-scanner](https://github.com/xullexer/PYDNS-Scanner) - A modern, high-performance DNS scanner with a beautiful Terminal User Interface (TUI) built with Textual. This tool can scan millions of IP addresses to find working DNS servers with optional Slipstream proxy testing and automatic multi-platform client download.
+- [scanners-box](https://github.com/We5ter/Scanners-Box) - A powerful and open-source toolkit for hackers and security automation - 安全行业从业者自研开源扫描器合辑
+- [BugBounty_Profile](https://github.com/1ndianl33t/BugBounty_Profile) - Recon_profile
+- [rapidscan](https://github.com/skavngr/rapidscan) - :santa: The Multi-Tool Web Vulnerability Scanner. 
+- [OSCPRepo](https://github.com/rewardone/OSCPRepo) - A list of commands, scripts, resources, and more that I have gathered and attempted to consolidate for use as OSCP (and more) study material. Commands in 'Usefulcommands' Keepnote. Bookmarks and reading material in 'BookmarkList' CherryTree. Reconscan (py2) in scripts folder. Py3 port coming. Custom ISO coming.
+- [AutoNSE](https://github.com/gadoi/AutoNSE) - Massive NSE (Nmap Scripting Engine) AutoSploit and AutoScanner
+- [Reconnoitre](https://github.com/codingo/Reconnoitre) - A security tool for multithreaded information gathering and service enumeration whilst building directory structures to store results, along with writing out recommendations for further testing.
+- [CORScanner](https://github.com/chenjj/CORScanner) -  Fast CORS misconfiguration vulnerabilities scanner🍻
+- [changeme](https://github.com/ztgrace/changeme) - A default credential scanner.
+- [CORStest](https://github.com/RUB-NDS/CORStest) - A simple CORS misconfiguration scanner
+- [fuxploider](https://github.com/almandin/fuxploider) - File upload vulnerability scanner and exploitation tool.
+- [userrecon](https://github.com/wishihab/userrecon) - Find usernames across over 75 social networks
+- [Devploit](https://github.com/GhettoCole/Devploit) - 🌐 Devploit  v 3.6 Information Gathering Tool 
+- [esp8266_deauther](https://github.com/SpacehuhnTech/esp8266_deauther) - Scan for WiFi devices, block selected connections, create dozens of networks and confuse WiFi scanners!
+- [datasploit](https://github.com/DataSploit/datasploit) - An #OSINT Framework to perform various recon techniques on Companies, People, Phone Number, Bitcoin Addresses, etc.,  aggregate all the raw data, and give data in multiple formats.
+- [BlackWidow](https://github.com/1N3/BlackWidow) - A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website.
+- [Sn1per](https://github.com/1N3/Sn1per) - Automated Pentest Recon Scanner
+- [snitch](https://github.com/Smaash/snitch) - information gathering via dorks
 
 ## Vulnerability Scanning
-- [websocketchecker](https://github.com/jinnu92/websocketchecker) - Burp suite extension to find sensitive information by checking incoming text OR binary websocket messages
-- [Silver](https://github.com/jinnu92/Silver) - Mass scan IPs for vulnerable services
-- [vulsearch](https://github.com/jinnu92/vulsearch) - Vulnerability information query tool on the terminal.
-- [AFL](https://github.com/jinnu92/AFL) - american fuzzy lop - a security-oriented fuzzer
-- [CVE-2021-3156](https://github.com/jinnu92/CVE-2021-3156) - No description provided.
-- [axiom](https://github.com/jinnu92/axiom) - The dynamic infrastructure framework for anybody! Distribute the workload of many different tools with ease, including nmap, ffuf, masscan, nuclei and many more!
-- [Zero-Logon-Exploit](https://github.com/jinnu92/Zero-Logon-Exploit) - Test tool for CVE-2020-1472
-- [nopasswd-scan](https://github.com/jinnu92/nopasswd-scan) - Find files that don't need a password to be executed by sudo.
-- [XSpear](https://github.com/jinnu92/XSpear) - Powerfull XSS Scanning and Parameter analysis tool&gem
-- [CVE-2020-1611](https://github.com/jinnu92/CVE-2020-1611) - Juniper Junos Space (CVE-2020-1611) (PoC)
-- [fuzzapi](https://github.com/jinnu92/fuzzapi) - Fuzzapi is a tool used for REST API pentesting and uses API_Fuzzer gem
-- [xss-payload-list](https://github.com/jinnu92/xss-payload-list) - 🎯 Cross Site Scripting ( XSS ) Vulnerability Payload List
-- [h2t](https://github.com/jinnu92/h2t) - h2t (HTTP Hardening Tool) scans a website and suggests security headers to apply
-- [ESFileExplorerOpenPortVuln](https://github.com/jinnu92/ESFileExplorerOpenPortVuln) - ES File Explorer Open Port Vulnerability - CVE-2019-6447
-- [awesome-forensics](https://github.com/jinnu92/awesome-forensics) - A curated list of awesome forensic analysis tools and resources
-- [GitHacker](https://github.com/jinnu92/GitHacker) - 🕷️ A Git source leak exploit tool that restores the entire Git repository, including data from stash, for white-box auditing and analysis of developers' mind
-- [struts-pwn_CVE-2018-11776](https://github.com/jinnu92/struts-pwn_CVE-2018-11776) -  An exploit for Apache Struts CVE-2018-11776
-- [CVE-2018-15473-Exploit](https://github.com/jinnu92/CVE-2018-15473-Exploit) - Exploit written in Python for CVE-2018-15473 with threading and export formats
-- [CVE-2018-8174_EXP](https://github.com/jinnu92/CVE-2018-8174_EXP) - CVE-2018-8174_python
-- [CVE-2017-8759](https://github.com/jinnu92/CVE-2017-8759) - Exploit toolkit CVE-2017-8759 - v1.0 is a handy python script which provides pentesters and security researchers a quick and effective way to test Microsoft .NET Framework RCE. It could generate a malicious RTF file and deliver metasploit / meterpreter / other payload to victim without any complex configuration.
-- [warcarrier](https://github.com/jinnu92/warcarrier) - WARCARRIER RF Scanning Terminal with Advanced Logging Features
+- [websocketchecker](https://github.com/0xAwali/WebSocketChecker) - Burp suite extension to find sensitive information by checking incoming text OR binary websocket messages
+- [Silver](https://github.com/s0md3v/Silver) - Mass scan IPs for vulnerable services
+- [vulsearch](https://github.com/pwnwiki-project/vulsearch) - Vulnerability information query tool on the terminal.
+- [AFL](https://github.com/google/AFL) - american fuzzy lop - a security-oriented fuzzer
+- [CVE-2021-3156](https://github.com/blasty/CVE-2021-3156) - No description provided.
+- [axiom](https://github.com/pry0cc/axiom) - The dynamic infrastructure framework for anybody! Distribute the workload of many different tools with ease, including nmap, ffuf, masscan, nuclei and many more!
+- [Zero-Logon-Exploit](https://github.com/Sq00ky/Zero-Logon-Exploit) - Test tool for CVE-2020-1472
+- [XSpear](https://github.com/hahwul/XSpear) - Powerfull XSS Scanning and Parameter analysis tool&gem
+- [CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611) - Juniper Junos Space (CVE-2020-1611) (PoC)
+- [fuzzapi](https://github.com/Fuzzapi/fuzzapi) - Fuzzapi is a tool used for REST API pentesting and uses API_Fuzzer gem
+- [xss-payload-list](https://github.com/payloadbox/xss-payload-list) - 🎯 Cross Site Scripting ( XSS ) Vulnerability Payload List
+- [h2t](https://github.com/gildasio/h2t) - h2t (HTTP Hardening Tool) scans a website and suggests security headers to apply
+- [ESFileExplorerOpenPortVuln](https://github.com/fs0c131y/ESFileExplorerOpenPortVuln) - ES File Explorer Open Port Vulnerability - CVE-2019-6447
+- [awesome-forensics](https://github.com/cugu/awesome-forensics) - A curated list of awesome forensic analysis tools and resources
+- [GitHacker](https://github.com/WangYihang/GitHacker) - 🕷️ A Git source leak exploit tool that restores the entire Git repository, including data from stash, for white-box auditing and analysis of developers' mind
+- [struts-pwn_CVE-2018-11776](https://github.com/mazen160/struts-pwn_CVE-2018-11776) -  An exploit for Apache Struts CVE-2018-11776
+- [CVE-2018-15473-Exploit](https://github.com/Rhynorater/CVE-2018-15473-Exploit) - Exploit written in Python for CVE-2018-15473 with threading and export formats
+- [CVE-2018-8174_EXP](https://github.com/Yt1g3r/CVE-2018-8174_EXP) - CVE-2018-8174_python
+- [CVE-2017-8759](https://github.com/bhdresh/CVE-2017-8759) - Exploit toolkit CVE-2017-8759 - v1.0 is a handy python script which provides pentesters and security researchers a quick and effective way to test Microsoft .NET Framework RCE. It could generate a malicious RTF file and deliver metasploit / meterpreter / other payload to victim without any complex configuration.
+- [warcarrier](https://github.com/RackunSec/warcarrier) - WARCARRIER RF Scanning Terminal with Advanced Logging Features
 
 ## Exploitation Tools
-- [objection](https://github.com/jinnu92/objection) - 📱 objection - runtime mobile exploration
-- [pwncat](https://github.com/jinnu92/pwncat) - pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE)
-- [ghost](https://github.com/jinnu92/ghost) - Ghost Framework is an Android post-exploitation framework that exploits the Android Debug Bridge to remotely access an Android device. Ghost Framework gives you the power and convenience of remote Android device administration.
-- [PrivescCheck](https://github.com/jinnu92/PrivescCheck) - Privilege Escalation Enumeration Script for Windows
-- [Trishul](https://github.com/jinnu92/Trishul) - Burp Extension written in Jython to hunt for common vulnerabilities found in websites. Developed by Gaurav Narwani to help people find vulnerabilities and teach how to exploit them.
-- [apk-mitm](https://github.com/jinnu92/apk-mitm) - 🤖 A CLI application that automatically prepares Android APK files for HTTPS inspection
-- [GTFOBins.github.io](https://github.com/jinnu92/GTFOBins.github.io) - Curated list of Unix binaries that can be exploited to bypass system security restrictions
-- [open-redirect-payload-list](https://github.com/jinnu92/open-redirect-payload-list) - 🎯 Open Redirect Payload List
-- [rfi-lfi-payload-list](https://github.com/jinnu92/rfi-lfi-payload-list) - 🎯 RFI/LFI Payload List
-- [OSCE-Exploit-Development](https://github.com/jinnu92/OSCE-Exploit-Development) - No description provided.
-- [sql-injection-payload-list](https://github.com/jinnu92/sql-injection-payload-list) - 🎯 SQL Injection Payload List
-- [xxe-injection-payload-list](https://github.com/jinnu92/xxe-injection-payload-list) - 🎯 XML External Entity (XXE) Injection Payload List
-- [command-injection-payload-list](https://github.com/jinnu92/command-injection-payload-list) - 🎯 Command Injection Payload List
-- [PENTESTING-BIBLE](https://github.com/jinnu92/PENTESTING-BIBLE) - This repository was created and developed by Ammar Amer @cry__pto Only. Updates to this repository will continue to arrive until the number of links reaches 10000 links & 10000 pdf files .Learn Ethical Hacking and penetration testing .hundreds of ethical hacking & penetration testing & red team & cyber security & computer science resources.
-- [terminalizer](https://github.com/jinnu92/terminalizer) - 🦄 Record your terminal and generate animated gif images or share a web player
-- [Cheatsheet-God](https://github.com/jinnu92/Cheatsheet-God) - Penetration Testing Biggest Reference Bank - OSCP / PTP & PTX  Cheatsheet
-- [WHID-Payloads](https://github.com/jinnu92/WHID-Payloads) - A collection of Payloads for the WHID Cactus
-- [XSS-Payload-without-Anything](https://github.com/jinnu92/XSS-Payload-without-Anything) - XSS Payload without Anything.
-- [pentest-guide](https://github.com/jinnu92/pentest-guide) - Penetration tests cases, resources and guidelines.
-- [Serpico](https://github.com/jinnu92/Serpico) - SimplE RePort wrIting and COllaboration tool
-- [bashbunny-payloads](https://github.com/jinnu92/bashbunny-payloads) - Payloads for the Hak5 Bash Bunny
-- [netsec-ps-scripts](https://github.com/jinnu92/netsec-ps-scripts) - Collection of PowerShell network security scripts for system administrators. 
-- [Pentesting](https://github.com/jinnu92/Pentesting) - Tricks for penetration testing
-- [PenetrationTesting-Notes](https://github.com/jinnu92/PenetrationTesting-Notes) - Penetration Testing (eCPPT) Notes and SOP
-- [hershell](https://github.com/jinnu92/hershell) - Multiplatform reverse shell generator
-- [prithvi](https://github.com/jinnu92/prithvi) - A Report Generation Tool for Security Assessment
-- [wifi_ducky](https://github.com/jinnu92/wifi_ducky) - Upload, save and run keystroke injection payloads with an ESP8266 + ATMEGA32U4
-- [InvisiblePersistence](https://github.com/jinnu92/InvisiblePersistence) - Persisting in the Windows registry "invisibly"
-- [proxy_configuration](https://github.com/jinnu92/proxy_configuration) - System wide proxy configuration in a single script with options to add, remove proxy and restore system default proxy configuration
-- [HackTheWorld](https://github.com/jinnu92/HackTheWorld) - An Python Script For Generating Payloads that Bypasses All Antivirus so far .
-- [PRISM-AP](https://github.com/jinnu92/PRISM-AP) - An automated Wireless RogueAP MITM attack framework. 
-- [large-pcap-analyzer](https://github.com/jinnu92/large-pcap-analyzer) - A command-line utility program that performs some simple operations on .PCAP files very quickly. This allows you to manipulate also very large PCAP files that cannot be easily handled with other software like Wireshark (or tshark). Supports filtering encapsulated GTPu frames. Supports simple per-TCP-stream filtering. Easily extendible.
-- [jexboss](https://github.com/jinnu92/jexboss) - JexBoss: Jboss (and Java Deserialization Vulnerabilities) verify and EXploitation Tool
-- [analyze_pcap](https://github.com/jinnu92/analyze_pcap) - Generate the voice quality report. Support to extract the specific fields of the quality report.
-- [FakeImageExploiter](https://github.com/jinnu92/FakeImageExploiter) - Use a Fake image.jpg (hide known file extensions) to exploit targets
-- [mitmkin](https://github.com/jinnu92/mitmkin) - moduled sniffer TCP/UDP Proxy for man-in-the-middle attack
-- [poodle-PoC](https://github.com/jinnu92/poodle-PoC) - Poodle (Padding Oracle On Downgraded Legacy Encryption) attack
-- [EvilOSX](https://github.com/jinnu92/EvilOSX) - A pure python, post-exploitation, RAT (Remote Administration Tool) for macOS / OSX.
-- [BeeF-Over-Wan](https://github.com/jinnu92/BeeF-Over-Wan) - Browser Exploitation Framework is a Open-source penetration testing tool that focuses on browser-based vulnerabilities .This Python Script does the changes Required to make hooked Linked Accessible Over WAN .So anyone can use this framework and Attack Over WAN without Port Forwarding [NGROK or any Localhost to Webhost Service Required ]
-- [Cr3dOv3r](https://github.com/jinnu92/Cr3dOv3r) - Know the dangers of credential reuse attacks.
-- [RFCrack](https://github.com/jinnu92/RFCrack) - A Software Defined Radio Attack Tool
-- [MTPwn](https://github.com/jinnu92/MTPwn) - PoC exploit for arbitrary file read/write in locked Samsung Android device via MTP (SVE-2017-10086)
-- [kalibrate-bladeRF](https://github.com/jinnu92/kalibrate-bladeRF) - kalibrate-bladeRF
-- [Pyrit](https://github.com/jinnu92/Pyrit) - The famous WPA precomputed cracker, Migrated from Google.
-- [kalibrate-rtl](https://github.com/jinnu92/kalibrate-rtl) - fork of http://thre.at/kalibrate/ for use with rtl-sdr devices
-- [shadow](https://github.com/jinnu92/shadow) - A web console using html, php and little bit of bash for Wireless Penetration Testers
-- [Cheatsheets](https://github.com/jinnu92/Cheatsheets) - Penetration Testing/Security Cheatsheets
-- [raspberry_pwn](https://github.com/jinnu92/raspberry_pwn) - A Raspberry Pi pentesting suite by Pwnie Express
-- [BypassUAC](https://github.com/jinnu92/BypassUAC) - Fully functional Windows UAC bypass for Hak5 USB rubber ducky.
-- [kalibrate-hackrf](https://github.com/jinnu92/kalibrate-hackrf) - kalibrate for hackrf
+- [objection](https://github.com/sensepost/objection) - 📱 objection - runtime mobile exploration
+- [pwncat](https://github.com/cytopia/pwncat) - pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE)
+- [ghost](https://github.com/EntySec/Ghost) - Ghost Framework is an Android post-exploitation framework that exploits the Android Debug Bridge to remotely access an Android device. Ghost Framework gives you the power and convenience of remote Android device administration.
+- [PrivescCheck](https://github.com/itm4n/PrivescCheck) - Privilege Escalation Enumeration Script for Windows
+- [Trishul](https://github.com/gauravnarwani97/Trishul) - Burp Extension written in Jython to hunt for common vulnerabilities found in websites. Developed by Gaurav Narwani to help people find vulnerabilities and teach how to exploit them.
+- [apk-mitm](https://github.com/niklashigi/apk-mitm) - 🤖 A CLI application that automatically prepares Android APK files for HTTPS inspection
+- [GTFOBins.github.io](https://github.com/GTFOBins/GTFOBins.github.io) - Curated list of Unix binaries that can be exploited to bypass system security restrictions
+- [open-redirect-payload-list](https://github.com/payloadbox/open-redirect-payload-list) - 🎯 Open Redirect Payload List
+- [rfi-lfi-payload-list](https://github.com/payloadbox/rfi-lfi-payload-list) - 🎯 RFI/LFI Payload List
+- [OSCE-Exploit-Development](https://github.com/areyou1or0/Exploit-Dev) - No description provided.
+- [sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list) - 🎯 SQL Injection Payload List
+- [xxe-injection-payload-list](https://github.com/payloadbox/xxe-injection-payload-list) - 🎯 XML External Entity (XXE) Injection Payload List
+- [command-injection-payload-list](https://github.com/payloadbox/command-injection-payload-list) - 🎯 Command Injection Payload List
+- [PENTESTING-BIBLE](https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE) - This repository was created and developed by Ammar Amer @cry__pto Only. Updates to this repository will continue to arrive until the number of links reaches 10000 links & 10000 pdf files .Learn Ethical Hacking and penetration testing .hundreds of ethical hacking & penetration testing & red team & cyber security & computer science resources.
+- [terminalizer](https://github.com/faressoft/terminalizer) - 🦄 Record your terminal and generate animated gif images or share a web player
+- [Cheatsheet-God](https://github.com/OlivierLaflamme/Cheatsheet-God) - Penetration Testing Biggest Reference Bank - OSCP / PTP & PTX  Cheatsheet
+- [WHID-Payloads](https://github.com/TravisPooley/WHID-Payloads) - A collection of Payloads for the WHID Cactus
+- [XSS-Payload-without-Anything](https://github.com/hahwul/XSS-Payload-without-Anything) - XSS Payload without Anything.
+- [pentest-guide](https://github.com/Voorivex/pentest-guide) - Penetration tests cases, resources and guidelines.
+- [Serpico](https://github.com/BuffaloWill/Serpico) - SimplE RePort wrIting and COllaboration tool
+- [bashbunny-payloads](https://github.com/hak5/bashbunny-payloads) - Payloads for the Hak5 Bash Bunny
+- [netsec-ps-scripts](https://github.com/thom-s/netsec-ps-scripts) - Collection of PowerShell network security scripts for system administrators. 
+- [Pentesting](https://github.com/kmkz/Pentesting) - Tricks for penetration testing
+- [PenetrationTesting-Notes](https://github.com/hexrom/PenetrationTesting-Playbook) - Penetration Testing (eCPPT) Notes and SOP
+- [hershell](https://github.com/lesnuages/hershell) - Multiplatform reverse shell generator
+- [prithvi](https://github.com/vegabird/prithvi) - A Report Generation Tool for Security Assessment
+- [wifi_ducky](https://github.com/spacehuhn/wifi_ducky) - Upload, save and run keystroke injection payloads with an ESP8266 + ATMEGA32U4
+- [InvisiblePersistence](https://github.com/sorasuzukidev/ethereum-bnb-mev-bot) - Persisting in the Windows registry "invisibly"
+- [proxy_configuration](https://github.com/nityanandagohain/proxy_configuration) - System wide proxy configuration in a single script with options to add, remove proxy and restore system default proxy configuration
+- [HackTheWorld](https://github.com/stormshadow07/HackTheWorld) - An Python Script For Generating Payloads that Bypasses All Antivirus so far .
+- [PRISM-AP](https://github.com/1N3/PRISM-AP) - An automated Wireless RogueAP MITM attack framework. 
+- [large-pcap-analyzer](https://github.com/f18m/large-pcap-analyzer) - A command-line utility program that performs some simple operations on .PCAP files very quickly. This allows you to manipulate also very large PCAP files that cannot be easily handled with other software like Wireshark (or tshark). Supports filtering encapsulated GTPu frames. Supports simple per-TCP-stream filtering. Easily extendible.
+- [jexboss](https://github.com/joaomatosf/jexboss) - JexBoss: Jboss (and Java Deserialization Vulnerabilities) verify and EXploitation Tool
+- [analyze_pcap](https://github.com/shanewa/analyze_pcap) - Generate the voice quality report. Support to extract the specific fields of the quality report.
+- [FakeImageExploiter](https://github.com/r00t-3xp10it/FakeImageExploiter) - Use a Fake image.jpg (hide known file extensions) to exploit targets
+- [mitmkin](https://github.com/mh4x0f/mitmkin) - moduled sniffer TCP/UDP Proxy for man-in-the-middle attack
+- [poodle-PoC](https://github.com/mpgn/poodle-PoC) - Poodle (Padding Oracle On Downgraded Legacy Encryption) attack
+- [EvilOSX](https://github.com/Marten4n6/EvilOSX) - A pure python, post-exploitation, RAT (Remote Administration Tool) for macOS / OSX.
+- [BeeF-Over-Wan](https://github.com/stormshadow07/BeeF-Over-Wan) - Browser Exploitation Framework is a Open-source penetration testing tool that focuses on browser-based vulnerabilities .This Python Script does the changes Required to make hooked Linked Accessible Over WAN .So anyone can use this framework and Attack Over WAN without Port Forwarding [NGROK or any Localhost to Webhost Service Required ]
+- [Cr3dOv3r](https://github.com/D4Vinci/Cr3dOv3r) - Know the dangers of credential reuse attacks.
+- [RFCrack](https://github.com/cclabsInc/RFCrack) - A Software Defined Radio Attack Tool
+- [MTPwn](https://github.com/smeso/MTPwn) - PoC exploit for arbitrary file read/write in locked Samsung Android device via MTP (SVE-2017-10086)
+- [kalibrate-bladeRF](https://github.com/Nuand/kalibrate-bladeRF) - kalibrate-bladeRF
+- [Pyrit](https://github.com/JPaulMora/Pyrit) - The famous WPA precomputed cracker, Migrated from Google.
+- [kalibrate-rtl](https://github.com/steve-m/kalibrate-rtl) - fork of http://thre.at/kalibrate/ for use with rtl-sdr devices
+- [shadow](https://github.com/rootsaid/shadow) - A web console using html, php and little bit of bash for Wireless Penetration Testers
+- [Cheatsheets](https://github.com/dave5623/Cheatsheets) - Penetration Testing/Security Cheatsheets
+- [raspberry_pwn](https://github.com/g13net/Raspberry-Pwn) - A Raspberry Pi pentesting suite by Pwnie Express
+- [BypassUAC](https://github.com/JPaulMora/BypassUAC) - Fully functional Windows UAC bypass for Hak5 USB rubber ducky.
+- [kalibrate-hackrf](https://github.com/scateu/kalibrate-hackrf) - kalibrate for hackrf
 
 ## Web Security Tools
-- [jsanalyzer](https://github.com/jinnu92/jsanalyzer) - No description provided.
-- [WebHackersWeapons](https://github.com/jinnu92/WebHackersWeapons) - ⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
-- [Gf-Patterns](https://github.com/jinnu92/Gf-Patterns) - GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interesting Subs) parameters grep
-- [jwt_tool](https://github.com/jinnu92/jwt_tool) - :snake: A toolkit for testing, tweaking and cracking JSON Web Tokens
-- [BurpCustomizer](https://github.com/jinnu92/BurpCustomizer) - Because just a dark theme wasn't enough!
-- [RMS-Runtime-Mobile-Security](https://github.com/jinnu92/RMS-Runtime-Mobile-Security) - Runtime Mobile Security (RMS) 📱🔥  - is a powerful web interface that helps you to manipulate Android and iOS Apps at Runtime
-- [Stepper](https://github.com/jinnu92/Stepper) - A natural evolution of Burp Suite's Repeater tool
-- [skf-labs](https://github.com/jinnu92/skf-labs) - Repo for all the OWASP-SKF Docker lab examples
-- [hakrawler](https://github.com/jinnu92/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
-- [Awesome-WAF](https://github.com/jinnu92/Awesome-WAF) - 🔥 Everything awesome about web-application firewalls (WAF).
-- [CheatSheetSeries](https://github.com/jinnu92/CheatSheetSeries) - The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
-- [webtech](https://github.com/jinnu92/webtech) - Identify technologies used on websites.
-- [php-spider](https://github.com/jinnu92/php-spider) - A configurable and extensible PHP web spider
-- [dxa4481.github.io](https://github.com/jinnu92/dxa4481.github.io) - This is my resume, in HTML/CSS
-- [mimikittenz4Linux](https://github.com/jinnu92/mimikittenz4Linux) - Steals cleartext passwords from webservices, by reading the memory of browsers
+- [jsanalyzer](https://github.com/jenish-sojitra/JSAnalyzer) - No description provided.
+- [WebHackersWeapons](https://github.com/hahwul/WebHackersWeapons) - ⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting
+- [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns) - GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interesting Subs) parameters grep
+- [jwt_tool](https://github.com/ticarpi/jwt_tool) - :snake: A toolkit for testing, tweaking and cracking JSON Web Tokens
+- [BurpCustomizer](https://github.com/C0DEbrained/BurpCustomizer) - Because just a dark theme wasn't enough!
+- [RMS-Runtime-Mobile-Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) - Runtime Mobile Security (RMS) 📱🔥  - is a powerful web interface that helps you to manipulate Android and iOS Apps at Runtime
+- [Stepper](https://github.com/C0DEbrained/Stepper) - A natural evolution of Burp Suite's Repeater tool
+- [skf-labs](https://github.com/blabla1337/skf-labs) - Repo for all the OWASP-SKF Docker lab examples
+- [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
+- [Awesome-WAF](https://github.com/0xInfection/Awesome-WAF) - 🔥 Everything awesome about web-application firewalls (WAF).
+- [CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) - The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
+- [webtech](https://github.com/ShielderSec/webtech) - Identify technologies used on websites.
+- [php-spider](https://github.com/mvdbos/php-spider) - A configurable and extensible PHP web spider
+- [dxa4481.github.io](https://github.com/dxa4481/dxa4481.github.io) - This is my resume, in HTML/CSS
+- [mimikittenz4Linux](https://github.com/dxa4481/mimikittenz4Linux) - Steals cleartext passwords from webservices, by reading the memory of browsers
 
 ## Network Security
-- [grafana](https://github.com/jinnu92/grafana) - The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. 
-- [pcapinator](https://github.com/jinnu92/pcapinator) - A tool for processing a lot of pcaps using tshark
-- [WiFiSatellite](https://github.com/jinnu92/WiFiSatellite) - WiFi Satellite Project - as seen on the Chaos Communication Congress
-- [Modlishka](https://github.com/jinnu92/Modlishka) - Modlishka. Reverse Proxy. Phishing NG.
-- [PcapXray](https://github.com/jinnu92/PcapXray) - :snowflake: PcapXray - A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction
-- [netdata](https://github.com/jinnu92/netdata) - Real-time performance monitoring, done right! https://my-netdata.io/
-- [PcapViz](https://github.com/jinnu92/PcapViz) - Visualize network topologies and collect graph statistics based on pcap files
-- [RPI-Tor-Wireless-Hotspot](https://github.com/jinnu92/RPI-Tor-Wireless-Hotspot) - PiFiTorAP is simple bash script for configure your Raspberry Pi 3 B/B+ as an Anonymous WiFi Hotspot.
-- [sparrow-wifi](https://github.com/jinnu92/sparrow-wifi) - Next-Gen GUI-based WiFi and Bluetooth Analyzer for Linux
-- [hcxdumptool](https://github.com/jinnu92/hcxdumptool) - Small tool to capture packets from wlan devices.
-- [graftcp](https://github.com/jinnu92/graftcp) - A flexible tool for redirecting a given program's TCP traffic to SOCKS5 proxy.
-- [evilginx](https://github.com/jinnu92/evilginx) - PLEASE USE NEW VERSION: https://github.com/kgretzky/evilginx2
-- [ipdecap](https://github.com/jinnu92/ipdecap) - Decapsulate traffic encapsulated within GRE, IPIP, 6in4, ESP (ipsec) protocols, can also remove IEEE 802.1Q (virtual lan) header. Works with pcap files.
-- [RFSec-ToolKit](https://github.com/jinnu92/RFSec-ToolKit) - RFSec-ToolKit is a collection of Radio Frequency Communication Protocol Hacktools.
-- [gps-sdr-sim](https://github.com/jinnu92/gps-sdr-sim) - bladeRF GPS-SDR-SIM
-- [gr-gsm](https://github.com/jinnu92/gr-gsm) - Gnuradio blocks and tools for receiving GSM transmissions
-- [pcap2wav](https://github.com/jinnu92/pcap2wav) - A simple utility to make it easier to extract the audio from a pcap.
-- [IMSI-catcher](https://github.com/jinnu92/IMSI-catcher) - This program show you IMSI numbers of cellphones around you.
-- [morpheus](https://github.com/jinnu92/morpheus) - Morpheus - Automated Ettercap TCP/IP Hijacking Tool
-- [net-creds](https://github.com/jinnu92/net-creds) - Sniffs sensitive data from interface or pcap
-- [wifijammer](https://github.com/jinnu92/wifijammer) - Continuously jam all wifi clients/routers
-- [bladeRF](https://github.com/jinnu92/bladeRF) - bladeRF USB 3.0 Superspeed Software Defined Radio Source Code
-- [PcapBittorrent](https://github.com/jinnu92/PcapBittorrent) - Extract Bittorrent from pcap file
-- [CatchME](https://github.com/jinnu92/CatchME) - CatchME - WiFi Fun Box "Having Fun with ESP8266"
-- [WHID](https://github.com/jinnu92/WHID) - WiFi HID Injector - An USB Rubberducky / BadUSB On Steroids.
-- [iSniff-GPS](https://github.com/jinnu92/iSniff-GPS) - Passive sniffing tool for capturing and visualising WiFi location data disclosed by iOS devices
-- [wifi-arsenal](https://github.com/jinnu92/wifi-arsenal) - WiFi arsenal
-- [lows](https://github.com/jinnu92/lows) - The Location-based WiFi Services system: A Complete Open Source Solution for Wi-Fi Beacon Stuffing Based Location-based Services
-- [WPA2-HalfHandshake-Crack](https://github.com/jinnu92/WPA2-HalfHandshake-Crack) - This is a POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP.
-- [wifispy](https://github.com/jinnu92/wifispy) - Sniff Wifi traffic, log device addresses.
-- [wifi_monitor](https://github.com/jinnu92/wifi_monitor) - No description provided.
-- [WiFi-Rifle](https://github.com/jinnu92/WiFi-Rifle) - Creating a wireless rifle de-authentication gun, which utilized a yagi antenna and a Raspberry Pi.
-- [wifresti](https://github.com/jinnu92/wifresti) - Find your wireless network password in Windows , Linux and Mac OS
-- [pcap2xml](https://github.com/jinnu92/pcap2xml) - Convert 802.11 Packet Traces to XML and SQLITE Format
-- [tcpextract](https://github.com/jinnu92/tcpextract) - Extract files from captured TCP sessions. Support live streams and pcap files.
-- [open_wps](https://github.com/jinnu92/open_wps) - Open Source WiFi Positioning System
+- [grafana](https://github.com/grafana/grafana) - The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. 
+- [pcapinator](https://github.com/mspicer/pcapinator) - A tool for processing a lot of pcaps using tshark
+- [WiFiSatellite](https://github.com/spacehuhn/WiFiSatellite) - WiFi Satellite Project - as seen on the Chaos Communication Congress
+- [Modlishka](https://github.com/drk1wi/Modlishka) - Modlishka. Reverse Proxy. Phishing NG.
+- [PcapXray](https://github.com/srixivas/PcapXray) - :snowflake: PcapXray - A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction
+- [netdata](https://github.com/netdata/netdata) - Real-time performance monitoring, done right! https://my-netdata.io/
+- [PcapViz](https://github.com/1ultimat3/PcapViz) - Visualize network topologies and collect graph statistics based on pcap files
+- [RPI-Tor-Wireless-Hotspot](https://github.com/techchipnet/RPI-Tor-Wireless-Hotspot) - PiFiTorAP is simple bash script for configure your Raspberry Pi 3 B/B+ as an Anonymous WiFi Hotspot.
+- [sparrow-wifi](https://github.com/ghostop14/sparrow-wifi) - Next-Gen GUI-based WiFi and Bluetooth Analyzer for Linux
+- [hcxdumptool](https://github.com/ZerBea/hcxdumptool) - Small tool to capture packets from wlan devices.
+- [graftcp](https://github.com/hmgle/graftcp) - A flexible tool for redirecting a given program's TCP traffic to SOCKS5 proxy.
+- [evilginx](https://github.com/kgretzky/evilginx) - PLEASE USE NEW VERSION: https://github.com/kgretzky/evilginx2
+- [ipdecap](https://github.com/lpefferkorn/ipdecap) - Decapsulate traffic encapsulated within GRE, IPIP, 6in4, ESP (ipsec) protocols, can also remove IEEE 802.1Q (virtual lan) header. Works with pcap files.
+- [RFSec-ToolKit](https://github.com/cn0xroot/RFSec-ToolKit) - RFSec-ToolKit is a collection of Radio Frequency Communication Protocol Hacktools.
+- [gps-sdr-sim](https://github.com/Nuand/gps-sdr-sim) - bladeRF GPS-SDR-SIM
+- [gr-gsm](https://github.com/ptrkrysik/gr-gsm) - Gnuradio blocks and tools for receiving GSM transmissions
+- [pcap2wav](https://github.com/shanewa/pcap2wav) - A simple utility to make it easier to extract the audio from a pcap.
+- [IMSI-catcher](https://github.com/Oros42/IMSI-catcher) - This program show you IMSI numbers of cellphones around you.
+- [morpheus](https://github.com/r00t-3xp10it/morpheus) - Morpheus - Automated Ettercap TCP/IP Hijacking Tool
+- [net-creds](https://github.com/DanMcInerney/net-creds) - Sniffs sensitive data from interface or pcap
+- [wifijammer](https://github.com/DanMcInerney/wifijammer) - Continuously jam all wifi clients/routers
+- [bladeRF](https://github.com/Nuand/bladeRF) - bladeRF USB 3.0 Superspeed Software Defined Radio Source Code
+- [PcapBittorrent](https://github.com/fritzfs/PcapBittorrent) - Extract Bittorrent from pcap file
+- [CatchME](https://github.com/herwonowr/CatchME) - CatchME - WiFi Fun Box "Having Fun with ESP8266"
+- [WHID](https://github.com/evilsocket/WHID) - WiFi HID Injector - An USB Rubberducky / BadUSB On Steroids.
+- [iSniff-GPS](https://github.com/hubert3/iSniff-GPS) - Passive sniffing tool for capturing and visualising WiFi location data disclosed by iOS devices
+- [wifi-arsenal](https://github.com/wi-fi-analyzer/wifi-arsenal) - WiFi arsenal
+- [lows](https://github.com/lows/lows) - The Location-based WiFi Services system: A Complete Open Source Solution for Wi-Fi Beacon Stuffing Based Location-based Services
+- [WPA2-HalfHandshake-Crack](https://github.com/dxa4481/WPA2-HalfHandshake-Crack) - This is a POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP.
+- [wifispy](https://github.com/Geovation/wifispy) - Sniff Wifi traffic, log device addresses.
+- [wifi_monitor](https://github.com/dave5623/wifi_monitor) - No description provided.
+- [WiFi-Rifle](https://github.com/sensepost/WiFi-Rifle) - Creating a wireless rifle de-authentication gun, which utilized a yagi antenna and a Raspberry Pi.
+- [wifresti](https://github.com/LionSec/wifresti) - Find your wireless network password in Windows , Linux and Mac OS
+- [pcap2xml](https://github.com/securitytube/pcap2xml) - Convert 802.11 Packet Traces to XML and SQLITE Format
+- [tcpextract](https://github.com/faust/tcpextract) - Extract files from captured TCP sessions. Support live streams and pcap files.
+- [open_wps](https://github.com/toyokazu/open_wps) - Open Source WiFi Positioning System
 
 ## AI Security Tools
-- [codexbar](https://github.com/jinnu92/codexbar) - Show usage stats for OpenAI Codex and Claude Code, without having to login.
-- [awesome-ai-security](https://github.com/jinnu92/awesome-ai-security) - Curated resources, research, and tools for securing AI systems
-- [LocalAI](https://github.com/jinnu92/LocalAI) - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
-- [kawaiigpt](https://github.com/jinnu92/kawaiigpt) - WormGPT kawaii ver
-- [QureAi](https://github.com/jinnu92/QureAi) - No description provided.
-- [ghost_eye](https://github.com/jinnu92/ghost_eye) - Ghost Eye Informationgathering Footprinting Scanner and Recon Tool Release. Ghost Eye is an Information Gathering Tool I made in python 3. To run Ghost Eye, it only needs a domain or ip. Ghost Eye can work with any Linux distros if they support Python 3. Author: Jolanda de Koff
-- [httpie](https://github.com/jinnu92/httpie) - As easy as HTTPie /aitch-tee-tee-pie/ 🥧  Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/clihttp
-- [Bash-Oneliner](https://github.com/jinnu92/Bash-Oneliner) - A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.
-- [EagleShell](https://github.com/jinnu92/EagleShell) - EagleShell is a high-quality tool that aims to improve your pentest.
-- [Active-Directory-Exploitation-Cheat-Sheet](https://github.com/jinnu92/Active-Directory-Exploitation-Cheat-Sheet) - A cheat sheet that contains common enumeration and attack methods for Windows Active Directory.
-- [trivy](https://github.com/jinnu92/trivy) - A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI
-- [attacking-and-auditing-docker-containers-and-kubernetes-clusters](https://github.com/jinnu92/attacking-and-auditing-docker-containers-and-kubernetes-clusters) - Appsecco training course content on Attacking and Auditing Dockers Containers and Kubernetes Clusters
-- [AutoRecon](https://github.com/jinnu92/AutoRecon) - Simple shell script for automated domain recognition with some tools
-- [JustTryHarder](https://github.com/jinnu92/JustTryHarder) - JustTryHarder, a cheat sheet which will aid you through the PWK course & the OSCP Exam. (Inspired by PayloadAllTheThings)
-- [whid-31337](https://github.com/jinnu92/whid-31337) - WHID Elite is a GSM-enabled Open-Source Multi-Purpose Offensive Device that allows a threat actor to remotely inject keystrokes, bypass air-gapped systems, conduct mousejacking attacks, do acoustic surveillance, RF replay attacks and much more. In practice, is THE Wet Dream of any Security Consultant out there!
-- [Osmedeus](https://github.com/jinnu92/Osmedeus) - Fully automated offensive security framework for reconnaissance and vulnerability scanning
-- [aquatone](https://github.com/jinnu92/aquatone) - A Tool for Domain Flyovers
-- [megplus](https://github.com/jinnu92/megplus) - Automated reconnaissance wrapper — TomNomNom's meg on steroids. [DEPRECATED]
-- [Sublist3r](https://github.com/jinnu92/Sublist3r) - Fast subdomains enumeration tool for penetration testers
-- [bettercap](https://github.com/jinnu92/bettercap) - The Swiss Army knife for 802.11, BLE and Ethernet networks reconnaissance and attacks.
-- [airbash](https://github.com/jinnu92/airbash) - A POSIX-compliant, fully automated WPA PSK handshake capture script aimed at penetration testing
-- [Android-IMSI-Catcher-Detector](https://github.com/jinnu92/Android-IMSI-Catcher-Detector) - AIMSICD • Fight IMSI-Catcher, StingRay and silent SMS!
-- [bettercap-proxy-modules](https://github.com/jinnu92/bettercap-proxy-modules) - This repository contains some bettercap transparent proxy example modules.
-- [ducky_over_wifi](https://github.com/jinnu92/ducky_over_wifi) - HID or Human Interface Devices are Devices that takes input from human and pass it on to the device connected to it. HID devices includes keyboard, joystick, mouse, touch pad, graphic tablet etc. There is a Library available in arduino which enables Digispark to acts as a keyboard and send keystrokes to PC. We are making use of this library to execute a metasploit reverse shell python code in the victim's machine and gain a reverse shell. Here, we will be using an Arduino Board, Arduino MKR1000 to integrate wireless network connectivity and perform HID attacks over WiFi
-- [wifi](https://github.com/jinnu92/wifi) - [unmaintained] WiFi tools for linux
-- [topguw](https://github.com/jinnu92/topguw) - A software to make easier some cracking GSM steps (known plaintext attack vector)
-- [AIRBASE-NG-SSLSTRIP-AIRSTRIP-](https://github.com/jinnu92/AIRBASE-NG-SSLSTRIP-AIRSTRIP-) - While documenting some MitM attacks I was looking into setting up a fake AP with BT5 and my good old loved ALFA . There's a whole bunch of scripts out there which do the job nicely, if you are ready to modify them here and there. In order for it to work, you need to run airmon-ng to start the card in monitor mode, run airbase-ng to run it in AP mode, run a DHCP server, set up routing, configure iptables for NAT and set up ip forwarding...that's all ;) Anyway, this works great, ... but great evil minds like to add layers of evilness upon evilness ;) So: why not add sslstrip to the mix and capture all those nice SSL pages which are redirected from normal HTTP? Not that hard: just add an extra iptables line to redirect HTTP traffic to SSLStrip and "Airstrip"is born. Note that this is just something that was cooked up in about an hour, so don't expect any robustness. Also: if it doesn't work out of the box: you are on your own. It works for me, with my particular setup but if you have any experience with BT/Linux, you should be able to make it work for you as well .
+- [codexbar](https://github.com/steipete/CodexBar) - Show usage stats for OpenAI Codex and Claude Code, without having to login.
+- [awesome-ai-security](https://github.com/TalEliyahu/Awesome-AI-Security) - Curated resources, research, and tools for securing AI systems
+- [LocalAI](https://github.com/mudler/LocalAI) - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
+- [kawaiigpt](https://github.com/MrSanZz/KawaiiGPT) - WormGPT kawaii ver
+- [QureAi](https://github.com/heeba-qure/QureAi) - No description provided.
+- [ghost_eye](https://github.com/BullsEye0/ghost_eye) - Ghost Eye Informationgathering Footprinting Scanner and Recon Tool Release. Ghost Eye is an Information Gathering Tool I made in python 3. To run Ghost Eye, it only needs a domain or ip. Ghost Eye can work with any Linux distros if they support Python 3. Author: Jolanda de Koff
+- [httpie](https://github.com/httpie/cli) - As easy as HTTPie /aitch-tee-tee-pie/ 🥧  Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/clihttp
+- [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner) - A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.
+- [EagleShell](https://github.com/TRSTN4/EagleShell) - EagleShell is a high-quality tool that aims to improve your pentest.
+- [Active-Directory-Exploitation-Cheat-Sheet](https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet) - A cheat sheet that contains common enumeration and attack methods for Windows Active Directory.
+- [trivy](https://github.com/fossabot/trivy) - A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI
+- [attacking-and-auditing-docker-containers-and-kubernetes-clusters](https://github.com/modulexcite/attacking-and-auditing-docker-containers-and-kubernetes-clusters) - Appsecco training course content on Attacking and Auditing Dockers Containers and Kubernetes Clusters
+- [AutoRecon](https://github.com/JoshuaMart/AutoRecon) - Simple shell script for automated domain recognition with some tools
+- [JustTryHarder](https://github.com/sinfulz/JustTryHarder) - JustTryHarder, a cheat sheet which will aid you through the PWK course & the OSCP Exam. (Inspired by PayloadAllTheThings)
+- [whid-31337](https://github.com/whid-injector/whid-31337) - WHID Elite is a GSM-enabled Open-Source Multi-Purpose Offensive Device that allows a threat actor to remotely inject keystrokes, bypass air-gapped systems, conduct mousejacking attacks, do acoustic surveillance, RF replay attacks and much more. In practice, is THE Wet Dream of any Security Consultant out there!
+- [Osmedeus](https://github.com/j3ssie/osmedeus) - Fully automated offensive security framework for reconnaissance and vulnerability scanning
+- [aquatone](https://github.com/michenriksen/aquatone) - A Tool for Domain Flyovers
+- [megplus](https://github.com/EdOverflow/megplus) - Automated reconnaissance wrapper — TomNomNom's meg on steroids. [DEPRECATED]
+- [Sublist3r](https://github.com/aboul3la/Sublist3r) - Fast subdomains enumeration tool for penetration testers
+- [bettercap](https://github.com/bettercap/bettercap) - The Swiss Army knife for 802.11, BLE and Ethernet networks reconnaissance and attacks.
+- [airbash](https://github.com/tehw0lf/airbash) - A POSIX-compliant, fully automated WPA PSK handshake capture script aimed at penetration testing
+- [Android-IMSI-Catcher-Detector](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector) - AIMSICD • Fight IMSI-Catcher, StingRay and silent SMS!
+- [bettercap-proxy-modules](https://github.com/evilsocket/bettercap-proxy-modules) - This repository contains some bettercap transparent proxy example modules.
+- [ducky_over_wifi](https://github.com/rootsaid/ducky_over_wifi) - HID or Human Interface Devices are Devices that takes input from human and pass it on to the device connected to it. HID devices includes keyboard, joystick, mouse, touch pad, graphic tablet etc. There is a Library available in arduino which enables Digispark to acts as a keyboard and send keystrokes to PC. We are making use of this library to execute a metasploit reverse shell python code in the victim's machine and gain a reverse shell. Here, we will be using an Arduino Board, Arduino MKR1000 to integrate wireless network connectivity and perform HID attacks over WiFi
+- [wifi](https://github.com/rockymeza/wifi) - [unmaintained] WiFi tools for linux
+- [topguw](https://github.com/bastienjalbert/topguw) - A software to make easier some cracking GSM steps (known plaintext attack vector)
+- [AIRBASE-NG-SSLSTRIP-AIRSTRIP-](https://github.com/MrMugiwara/AIRBASE-NG-SSLSTRIP-AIRSTRIP-) - While documenting some MitM attacks I was looking into setting up a fake AP with BT5 and my good old loved ALFA . There's a whole bunch of scripts out there which do the job nicely, if you are ready to modify them here and there. In order for it to work, you need to run airmon-ng to start the card in monitor mode, run airbase-ng to run it in AP mode, run a DHCP server, set up routing, configure iptables for NAT and set up ip forwarding...that's all ;) Anyway, this works great, ... but great evil minds like to add layers of evilness upon evilness ;) So: why not add sslstrip to the mix and capture all those nice SSL pages which are redirected from normal HTTP? Not that hard: just add an extra iptables line to redirect HTTP traffic to SSLStrip and "Airstrip"is born. Note that this is just something that was cooked up in about an hour, so don't expect any robustness. Also: if it doesn't work out of the box: you are on your own. It works for me, with my particular setup but if you have any experience with BT/Linux, you should be able to make it work for you as well .
 
 ## AI / LLM Security Tools
-- [llmfit](https://github.com/jinnu92/llmfit) - Hundreds of models & providers. One command to find what runs on your hardware.
-- [ruflo](https://github.com/jinnu92/ruflo) - 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration
-- [llm-sec](https://github.com/jinnu92/llm-sec) - A hands-on learning platform for understanding and testing LLM security vulnerabilities
-- [burp-mcp-agents](https://github.com/jinnu92/burp-mcp-agents) - Practical setup guides and helpers to connect Burp Suite MCP Server to multiple AI backends (Codex, Gemini, Ollama, ...).
-- [neurosploit](https://github.com/jinnu92/neurosploit) - NeuroSploitv2 is an advanced, AI-powered penetration testing framework designed to automate and augment various aspects of offensive security operations. Leveraging the capabilities of large language models (LLMs).
-- [offensive-ai-agent-prompts](https://github.com/jinnu92/offensive-ai-agent-prompts) - Prompts for performing tests on your Kali Linux using Gemini-cli, ChatGPT, DeepSeek, CursorAI, Claude Code, and Copilot.
-- [lyra-ai-prompt](https://github.com/jinnu92/lyra-ai-prompt) - The Lyra AI prompt
-- [Responder](https://github.com/jinnu92/Responder) - Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication. 
+- [llmfit](https://github.com/AlexsJones/llmfit) - Hundreds of models & providers. One command to find what runs on your hardware.
+- [ruflo](https://github.com/ruvnet/ruflo) - 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+- [llm-sec](https://github.com/tomabai/llm-sec) - A hands-on learning platform for understanding and testing LLM security vulnerabilities
+- [burp-mcp-agents](https://github.com/six2dez/burp-mcp-agents) - Practical setup guides and helpers to connect Burp Suite MCP Server to multiple AI backends (Codex, Gemini, Ollama, ...).
+- [neurosploit](https://github.com/JoasASantos/NeuroSploit) - NeuroSploitv2 is an advanced, AI-powered penetration testing framework designed to automate and augment various aspects of offensive security operations. Leveraging the capabilities of large language models (LLMs).
+- [offensive-ai-agent-prompts](https://github.com/JoasASantos/Offensive-AI-Agent-Prompts) - Prompts for performing tests on your Kali Linux using Gemini-cli, ChatGPT, DeepSeek, CursorAI, Claude Code, and Copilot.
+- [lyra-ai-prompt](https://github.com/allyunion/lyra-ai-prompt) - The Lyra AI prompt
+- [Responder](https://github.com/lgandx/Responder) - Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication. 
 
 ## Security Labs
-- [Ethical-Hacking-Labs](https://github.com/jinnu92/Ethical-Hacking-Labs) - Practical Ethical Hacking Labs 🗡🛡
-- [ethical-hacking-notes](https://github.com/jinnu92/ethical-hacking-notes) - my notes
-- [DLP-testing](https://github.com/jinnu92/DLP-testing) - this is only for dlp testing 
-- [jwt-hack](https://github.com/jinnu92/jwt-hack) - jwt-hack is JWT hacking, security testing utility
-- [pentesting-cookbook](https://github.com/jinnu92/pentesting-cookbook) - A set of recipes useful in fast-paced pentesting / red teaming scenarios
-- [assessment-mindset](https://github.com/jinnu92/assessment-mindset) - Security Mindmap that could be useful for the infosec community when doing pentest, bug bounty or red-team assessments.
-- [additional-pentest-tools-install](https://github.com/jinnu92/additional-pentest-tools-install) - Supplemental Tools for Kali Linux Installations
-- [Kn0ck](https://github.com/jinnu92/Kn0ck) - Automated Tools Pentest
-- [scripts](https://github.com/jinnu92/scripts) - Scripts I use during pentest engagements.
-- [OSCP-Cheatsheet-God](https://github.com/jinnu92/OSCP-Cheatsheet-God) - No description provided.
-- [OSCP-tools](https://github.com/jinnu92/OSCP-tools) - Custom Tools and Notes from my OSCP PWK experience
-- [whitepapers](https://github.com/jinnu92/whitepapers) - Interesting whitepapers I have found and have found very interesting
-- [txtool](https://github.com/jinnu92/txtool) - an easy pentesting tool.
-- [lanGhost](https://github.com/jinnu92/lanGhost) - 👻 A LAN dropbox chatbot controllable via Telegram
-- [OSCP-Prep](https://github.com/jinnu92/OSCP-Prep) - No description provided.
-- [GNSS-GPS-SDR](https://github.com/jinnu92/GNSS-GPS-SDR) - Some efferts on GPS replay, receive and test.
+- [Ethical-Hacking-Labs](https://github.com/Samsar4/Ethical-Hacking-Labs) - Practical Ethical Hacking Labs 🗡🛡
+- [ethical-hacking-notes](https://github.com/SrivathsanNayak/ethical-hacking-notes) - my notes
+- [jwt-hack](https://github.com/hahwul/jwt-hack) - jwt-hack is JWT hacking, security testing utility
+- [pentesting-cookbook](https://github.com/tasooshi/pentesting-cookbook) - A set of recipes useful in fast-paced pentesting / red teaming scenarios
+- [assessment-mindset](https://github.com/dsopas/assessment-mindset) - Security Mindmap that could be useful for the infosec community when doing pentest, bug bounty or red-team assessments.
+- [Kn0ck](https://github.com/prodject/Kn0ck) - Automated Tools Pentest
+- [scripts](https://github.com/averagesecurityguy/scripts) - Scripts I use during pentest engagements.
+- [OSCP-Cheatsheet-God](https://github.com/cr3m/OSCP-Cheatsheet-God) - No description provided.
+- [OSCP-tools](https://github.com/RackunSec/Penetration-Testing-Grimoire) - Custom Tools and Notes from my OSCP PWK experience
+- [whitepapers](https://github.com/AdeptusM/whitepapers) - Interesting whitepapers I have found and have found very interesting
+- [txtool](https://github.com/kuburan/txtool) - an easy pentesting tool.
+- [lanGhost](https://github.com/xdavidhu/lanGhost) - 👻 A LAN dropbox chatbot controllable via Telegram
+- [OSCP-Prep](https://github.com/rhodejo/OSCP-Prep) - No description provided.
+- [GNSS-GPS-SDR](https://github.com/JiaoXianjun/GNSS-GPS-SDR) - Some efferts on GPS replay, receive and test.
 
 ## Security Automation
-- [UnSAFE_Bank](https://github.com/jinnu92/UnSAFE_Bank) - Vulnerable Banking Suite
-- [privilege-escalation-awesome-scripts-suite](https://github.com/jinnu92/privilege-escalation-awesome-scripts-suite) - PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
-- [Arjun](https://github.com/jinnu92/Arjun) - HTTP parameter discovery suite.
-- [upfy](https://github.com/jinnu92/upfy) - A bash script to populate a fresh unix system with useful commands and aliases
-- [crelay](https://github.com/jinnu92/crelay) - Controlling different relay cards for home automation with a Linux software
-- [pyscripter](https://github.com/jinnu92/pyscripter) - Pyscripter is a feature-rich but lightweight Python IDE
-- [Bugzee](https://github.com/jinnu92/Bugzee) - Simple Script to install recommended Bug Bounty Hunting Tools In Your Linux Disto 
-- [mirrorscript](https://github.com/jinnu92/mirrorscript) - Script to change kali repository mirror
-- [password-analyzer.py](https://github.com/jinnu92/password-analyzer.py) - A quick python script to analyze a given set of passwords and give you some statistics. Used for identifying the most effective hashcat rules and masks, based on observed password trends.
-- [xerosploit](https://github.com/jinnu92/xerosploit) - Efficient and advanced man in the middle framework
-- [addicted2hash](https://github.com/jinnu92/addicted2hash) - Hashcat Bash Scripts for bulk hash file processing
+- [UnSAFE_Bank](https://github.com/lucideus-repo/UnSAFE_Bank) - Vulnerable Banking Suite
+- [privilege-escalation-awesome-scripts-suite](https://github.com/peass-ng/PEASS-ng) - PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
+- [Arjun](https://github.com/s0md3v/Arjun) - HTTP parameter discovery suite.
+- [upfy](https://github.com/rousan/upfy) - A bash script to populate a fresh unix system with useful commands and aliases
+- [crelay](https://github.com/ondrej1024/crelay) - Controlling different relay cards for home automation with a Linux software
+- [pyscripter](https://github.com/lmbelo/pyscripter) - Pyscripter is a feature-rich but lightweight Python IDE
+- [Bugzee](https://github.com/SecFathy/Bugzee) - Simple Script to install recommended Bug Bounty Hunting Tools In Your Linux Disto 
+- [mirrorscript](https://github.com/IceM4nn/mirrorscript-v2) - Script to change kali repository mirror
+- [password-analyzer.py](https://github.com/dank-panda/password-analyzer.py) - A quick python script to analyze a given set of passwords and give you some statistics. Used for identifying the most effective hashcat rules and masks, based on observed password trends.
+- [xerosploit](https://github.com/LionSec/xerosploit) - Efficient and advanced man in the middle framework
+- [addicted2hash](https://github.com/Hood3dRob1n/addicted2hash) - Hashcat Bash Scripts for bulk hash file processing
 
 ## Learning Resources
-- [Mind-Maps](https://github.com/jinnu92/Mind-Maps) - Mind-Maps of Several Things
-- [bugcrowd_university](https://github.com/jinnu92/bugcrowd_university) - Open source education content for the researcher community
+- [Mind-Maps](https://github.com/imran-parray/Mind-Maps) - Mind-Maps of Several Things
+- [bugcrowd_university](https://github.com/bugcrowd/bugcrowd_university) - Open source education content for the researcher community
 
 ## General Tools
-- [redash](https://github.com/jinnu92/redash) - Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.
-- [scrabble](https://github.com/jinnu92/scrabble) - Simple tool to recover .git folder from remote server
-- [flipperzero-firmware-wplugins](https://github.com/jinnu92/flipperzero-firmware-wplugins) - RogueMaster Flipper Zero Firmware
-- [trufflehog](https://github.com/jinnu92/trufflehog) - Find credentials all over the place
-- [status-react](https://github.com/jinnu92/status-react) - a free (libre) open source, mobile OS for Ethereum
-- [BBTz](https://github.com/jinnu92/BBTz) - BBT - Bug Bounty Tools 
-- [tipjar](https://github.com/jinnu92/tipjar) - No description provided.
-- [mobi](https://github.com/jinnu92/mobi) - No description provided.
-- [VulnDroid](https://github.com/jinnu92/VulnDroid) - CTF Style Vulnerable Android App
-- [All-in-one_BugBounty_PDF_bundles](https://github.com/jinnu92/All-in-one_BugBounty_PDF_bundles) - No description provided.
-- [OneForAll](https://github.com/jinnu92/OneForAll) - OneForAll是一款功能强大的子域收集工具
-- [3mux](https://github.com/jinnu92/3mux) - Terminal multiplexer inspired by i3
-- [HTB](https://github.com/jinnu92/HTB) - HTB Data
-- [PoC-in-GitHub](https://github.com/jinnu92/PoC-in-GitHub) - PoC auto collect from GitHub.
-- [1on1-questions](https://github.com/jinnu92/1on1-questions) - Mega list of 1 on 1 meeting questions compiled from a variety to sources
-- [wuzz](https://github.com/jinnu92/wuzz) - Interactive cli tool for HTTP inspection
-- [Bug-bounty](https://github.com/jinnu92/Bug-bounty) - Ressources for bug bounty hunting
-- [Bountystrike-sh](https://github.com/jinnu92/Bountystrike-sh) - Poor (rich?) man's bug bounty pipeline
-- [OpenBucket](https://github.com/jinnu92/OpenBucket) - Download content of an open bucket
-- [EvilCrow-Cable](https://github.com/jinnu92/EvilCrow-Cable) - BadUSB cable based on Attiny85 microcontroller with data line enabled.
-- [supremeDuck](https://github.com/jinnu92/supremeDuck) - Wireless "Rubber ducky" controlled by smartphone.
-- [sshcode](https://github.com/jinnu92/sshcode) - Run VS Code on any server over SSH.
-- [Shr3dKit](https://github.com/jinnu92/Shr3dKit) - Red Team Tool Kit
-- [mysql-magic](https://github.com/jinnu92/mysql-magic) - dump mysql client password from memory
-- [fireprox](https://github.com/jinnu92/fireprox) - AWS API Gateway management tool for creating on the fly HTTP pass-through proxies for unique IP rotation
-- [LeakLooker](https://github.com/jinnu92/LeakLooker) - Find open databases with Shodan
-- [faceswap](https://github.com/jinnu92/faceswap) - Non official project based on original /r/Deepfakes thread. Many thanks to him!
-- [fusuma](https://github.com/jinnu92/fusuma) - Multitouch gestures with libinput driver on X11, Linux
-- [AadhaarSearchEngine](https://github.com/jinnu92/AadhaarSearchEngine) - Find Aadhaar cards thanks to Google
-- [gpustat](https://github.com/jinnu92/gpustat) - 📊 A simple command-line utility for querying and monitoring GPU status
-- [Tools-n-Stuff](https://github.com/jinnu92/Tools-n-Stuff) - No description provided.
-- [cupp](https://github.com/jinnu92/cupp) - Common User Passwords Profiler (CUPP)
-- [hacktronian](https://github.com/jinnu92/hacktronian) - All in One Hacking Tool for Linux & Android
-- [hate_crack](https://github.com/jinnu92/hate_crack) - A tool for automating cracking methodologies through Hashcat from the TrustedSec team.
-- [Hash-Buster](https://github.com/jinnu92/Hash-Buster) - Crack hashes in seconds.
-- [browsh](https://github.com/jinnu92/browsh) - A fully-modern text-based browser, rendering to TTY and browsers
-- [randomrepo](https://github.com/jinnu92/randomrepo) - Repo for random stuff
-- [Apache-Struts-v3](https://github.com/jinnu92/Apache-Struts-v3) - No description provided.
-- [lazygit](https://github.com/jinnu92/lazygit) - simple terminal UI for git commands
-- [open-source-ideas](https://github.com/jinnu92/open-source-ideas) - 💡Ever had a cool idea to an Open Source project but didn't have the time to implement yourself? Let someone else give it a try!
-- [Bluedroid](https://github.com/jinnu92/Bluedroid) - PoCs of Vulnerabilities on Bluedroid
-- [wpa2-wordlists](https://github.com/jinnu92/wpa2-wordlists) - A collection of wordlists dictionaries for password cracking
-- [gnss-sdr](https://github.com/jinnu92/gnss-sdr) - GNSS-SDR, an open source GNSS software defined receiver
-- [pipal](https://github.com/jinnu92/pipal) - Pipal, THE password analyser
-- [nighthawk](https://github.com/jinnu92/nighthawk) - A stealthy, simple, unobtrusive music player that stays out of your way
-- [tbhm](https://github.com/jinnu92/tbhm) - The Bug Hunters Methodology
-- [Mastering-Metasploit](https://github.com/jinnu92/Mastering-Metasploit) - Metasploit Modules from Mastering Metasploit Book
-- [USB-Rubber-Ducky](https://github.com/jinnu92/USB-Rubber-Ducky) - No description provided.
-- [kerberoast](https://github.com/jinnu92/kerberoast) - No description provided.
-- [dump1090](https://github.com/jinnu92/dump1090) - Dump1090 is a simple Mode S decoder for RTLSDR devices
-- [mount-img](https://github.com/jinnu92/mount-img) - Easily mount a .img file on Linux
-- [lanturtle-modules](https://github.com/jinnu92/lanturtle-modules) - Module and Upgrade Repository for the Hak5 LAN Turtle
-- [unix-privesc-check](https://github.com/jinnu92/unix-privesc-check) - Automatically exported from code.google.com/p/unix-privesc-check
-- [windows-privesc-check](https://github.com/jinnu92/windows-privesc-check) - Standalone Executable to Check for Simple Privilege Escalation Vectors on Windows Systems
-- [topguw2](https://github.com/jinnu92/topguw2) - Topguw v2 with gr-gsm
-- [fm_transmitter](https://github.com/jinnu92/fm_transmitter) - Raspberry Pi as FM transmitter, custom source
-- [multi-rtl](https://github.com/jinnu92/multi-rtl) - Multi-channel receiver with use of RTL-SDR dongles
-- [password_cracking_rules](https://github.com/jinnu92/password_cracking_rules) - One rule to crack all passwords. or atleast we hope so.
-- [keysweeper](https://github.com/jinnu92/keysweeper) - KeySweeper is a stealthy Arduino-based device, camouflaged as a functioning USB wall charger, that wirelessly and passively sniffs, decrypts, logs and reports back (over GSM) all keystrokes from any Microsoft wireless keyboard in the vicinity.
-- [checkpot](https://github.com/jinnu92/checkpot) - A tool for checking a hash:pass pot file for hashes from a user:hash file
-- [gqrx](https://github.com/jinnu92/gqrx) - No description provided.
-- [express-gpio-rest-api](https://github.com/jinnu92/express-gpio-rest-api) - Express server for a RESTful API to access the Raspberry Pi's GPIO pins.
-- [tgscrack](https://github.com/jinnu92/tgscrack) - Kerberos TGS_REP cracker written in Golang
-- [kraken](https://github.com/jinnu92/kraken) - Kraken A5/1 Cracking Project Fork
-- [sslstrip2](https://github.com/jinnu92/sslstrip2) - SSLStrip version to defeat HSTS
+- [redash](https://github.com/getredash/redash) - Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.
+- [scrabble](https://github.com/denny0223/scrabble) - Simple tool to recover .git folder from remote server
+- [flipperzero-firmware-wplugins](https://github.com/RogueMaster/flipperzero-firmware-wPlugins) - RogueMaster Flipper Zero Firmware
+- [trufflehog](https://github.com/trufflesecurity/trufflehog) - Find credentials all over the place
+- [status-react](https://github.com/status-im/status-legacy) - a free (libre) open source, mobile OS for Ethereum
+- [BBTz](https://github.com/m4ll0k/BBTz) - BBT - Bug Bounty Tools 
+- [tipjar](https://github.com/theinfosecguy/tipjar) - No description provided.
+- [mobi](https://github.com/sup3r-b0y/mobi) - No description provided.
+- [VulnDroid](https://github.com/mihir-shah99/VulnDroid) - CTF Style Vulnerable Android App
+- [All-in-one_BugBounty_PDF_bundles](https://github.com/1ndianl33t/All-in-one_BugBounty_PDF_bundles) - No description provided.
+- [OneForAll](https://github.com/shmilylty/OneForAll) - OneForAll是一款功能强大的子域收集工具
+- [3mux](https://github.com/aaronjanse/3mux) - Terminal multiplexer inspired by i3
+- [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) - PoC auto collect from GitHub.
+- [1on1-questions](https://github.com/VGraupera/1on1-questions) - Mega list of 1 on 1 meeting questions compiled from a variety to sources
+- [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection
+- [Bug-bounty](https://github.com/sehno/Bug-bounty) - Ressources for bug bounty hunting
+- [Bountystrike-sh](https://github.com/BountyStrike/Bountystrike-sh) - Poor (rich?) man's bug bounty pipeline
+- [OpenBucket](https://github.com/fs0c131y/OpenBucket) - Download content of an open bucket
+- [EvilCrow-Cable](https://github.com/joelsernamoreno/EvilCrow-Cable) - BadUSB cable based on Attiny85 microcontroller with data line enabled.
+- [supremeDuck](https://github.com/michalmonday/supremeDuck) - Wireless "Rubber ducky" controlled by smartphone.
+- [sshcode](https://github.com/coder/sshcode) - Run VS Code on any server over SSH.
+- [Shr3dKit](https://github.com/shr3ddersec/Shr3dKit) - Red Team Tool Kit
+- [mysql-magic](https://github.com/y35uishere/mysql-magic) - dump mysql client password from memory
+- [fireprox](https://github.com/ustayready/fireprox) - AWS API Gateway management tool for creating on the fly HTTP pass-through proxies for unique IP rotation
+- [LeakLooker](https://github.com/woj-ciech/LeakLooker) - Find open databases with Shodan
+- [faceswap](https://github.com/deepfakes/faceswap) - Non official project based on original /r/Deepfakes thread. Many thanks to him!
+- [fusuma](https://github.com/iberianpig/fusuma) - Multitouch gestures with libinput driver on X11, Linux
+- [AadhaarSearchEngine](https://github.com/fs0c131y/AadhaarSearchEngine) - Find Aadhaar cards thanks to Google
+- [gpustat](https://github.com/wookayin/gpustat) - 📊 A simple command-line utility for querying and monitoring GPU status
+- [Tools-n-Stuff](https://github.com/timbo05sec/Tools-n-Stuff) - No description provided.
+- [cupp](https://github.com/Mebus/cupp) - Common User Passwords Profiler (CUPP)
+- [hacktronian](https://github.com/thehackingsage/hacktronian) - All in One Hacking Tool for Linux & Android
+- [hate_crack](https://github.com/trustedsec/hate_crack) - A tool for automating cracking methodologies through Hashcat from the TrustedSec team.
+- [Hash-Buster](https://github.com/s0md3v/Hash-Buster) - Crack hashes in seconds.
+- [browsh](https://github.com/browsh-org/browsh) - A fully-modern text-based browser, rendering to TTY and browsers
+- [randomrepo](https://github.com/JarLob/randomrepo) - Repo for random stuff
+- [Apache-Struts-v3](https://github.com/s1kr10s/Apache-Struts-v4) - No description provided.
+- [lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
+- [open-source-ideas](https://github.com/open-source-ideas/ideas) - 💡Ever had a cool idea to an Open Source project but didn't have the time to implement yourself? Let someone else give it a try!
+- [Bluedroid](https://github.com/hausferd/Bluedroid) - PoCs of Vulnerabilities on Bluedroid
+- [wpa2-wordlists](https://github.com/kennyn510/wpa2-wordlists) - A collection of wordlists dictionaries for password cracking
+- [gnss-sdr](https://github.com/gnss-sdr/gnss-sdr) - GNSS-SDR, an open source GNSS software defined receiver
+- [pipal](https://github.com/digininja/pipal) - Pipal, THE password analyser
+- [nighthawk](https://github.com/octavezero/nighthawk) - A stealthy, simple, unobtrusive music player that stays out of your way
+- [tbhm](https://github.com/jhaddix/tbhm) - The Bug Hunters Methodology
+- [Mastering-Metasploit](https://github.com/nipunjaswal/Mastering-Metasploit) - Metasploit Modules from Mastering Metasploit Book
+- [USB-Rubber-Ducky](https://github.com/keland/USB-Rubber-Ducky) - No description provided.
+- [kerberoast](https://github.com/nidem/kerberoast) - No description provided.
+- [dump1090](https://github.com/antirez/dump1090) - Dump1090 is a simple Mode S decoder for RTLSDR devices
+- [mount-img](https://github.com/mafintosh/mount-img) - Easily mount a .img file on Linux
+- [lanturtle-modules](https://github.com/hak5/lanturtle-modules) - Module and Upgrade Repository for the Hak5 LAN Turtle
+- [unix-privesc-check](https://github.com/pentestmonkey/unix-privesc-check) - Automatically exported from code.google.com/p/unix-privesc-check
+- [windows-privesc-check](https://github.com/pentestmonkey/windows-privesc-check) - Standalone Executable to Check for Simple Privilege Escalation Vectors on Windows Systems
+- [topguw2](https://github.com/bastienjalbert/topguw2) - Topguw v2 with gr-gsm
+- [fm_transmitter](https://github.com/markondej/fm_transmitter) - Raspberry Pi as FM transmitter, custom source
+- [multi-rtl](https://github.com/ptrkrysik/multi-rtl) - Multi-channel receiver with use of RTL-SDR dongles
+- [password_cracking_rules](https://github.com/NotSoSecure/password_cracking_rules) - One rule to crack all passwords. or atleast we hope so.
+- [keysweeper](https://github.com/samyk/keysweeper) - KeySweeper is a stealthy Arduino-based device, camouflaged as a functioning USB wall charger, that wirelessly and passively sniffs, decrypts, logs and reports back (over GSM) all keystrokes from any Microsoft wireless keyboard in the vicinity.
+- [checkpot](https://github.com/ryhanson/checkpot) - A tool for checking a hash:pass pot file for hashes from a user:hash file
+- [gqrx](https://github.com/Nuand/gqrx) - No description provided.
+- [express-gpio-rest-api](https://github.com/juangesino/express-gpio-rest-api) - Express server for a RESTful API to access the Raspberry Pi's GPIO pins.
+- [tgscrack](https://github.com/leechristensen/tgscrack) - Kerberos TGS_REP cracker written in Golang
+- [kraken](https://github.com/joswr1ght/kraken) - Kraken A5/1 Cracking Project Fork
+- [sslstrip2](https://github.com/Nick-the-Greek/sslstrip2) - SSLStrip version to defeat HSTS
 
